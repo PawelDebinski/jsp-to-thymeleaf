@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d1d255-ce4e-41b1-b21c-91b8b452d2a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/displayAllBooks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments/headerAndFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/add-new-book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/BookManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/BookManagementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/virtualpairprogrammers/control/BookManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/virtualpairprogrammers/control/BookManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/CreateBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/CreateBookController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +24,18 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="6" />
-          <entry key="jsp" value="4" />
+          <entry key="html" value="3" />
+          <entry key="java" value="8" />
+          <entry key="jsp" value="5" />
           <entry key="thymes" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="6" />
-          <entry key="JSP" value="4" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="8" />
+          <entry key="JSP" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="ThymeleafExpressions" value="1" />
           <entry key="XML" value="2" />
@@ -45,18 +43,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="631" />
-          <entry key="java" value="11" />
+          <entry key="html" value="1158" />
+          <entry key="java" value="34" />
           <entry key="thymes" value="6" />
-          <entry key="txt" value="103" />
+          <entry key="txt" value="157" />
           <entry key="xml" value="322" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="631" />
-          <entry key="JAVA" value="11" />
-          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="HTML" value="1158" />
+          <entry key="JAVA" value="34" />
+          <entry key="PLAIN_TEXT" value="157" />
           <entry key="ThymeleafExpressions" value="6" />
           <entry key="XML" value="322" />
         </counts>
@@ -66,19 +64,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/displayAllBooks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments/headerAndFooter.html">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/add-new-book.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -86,8 +75,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/BookManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="340">
               <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/CreateBookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+              <folding>
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/BookManagementController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments/headerAndFooter.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/displayAllBooks.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/CreateBookController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/add-new-book.html" />
       </list>
     </option>
   </component>
@@ -150,7 +154,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
-    <option name="y" value="590" />
+    <option name="y" value="3" />
     <option name="width" value="1686" />
     <option name="height" value="421" />
   </component>
@@ -305,7 +309,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537877473506" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537888608141" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -360,7 +364,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537869490715</updated>
-      <workItem from="1537869493887" duration="6400000" />
+      <workItem from="1537869493887" duration="9439000" />
     </task>
     <task id="LOCAL-00001" summary="added thymeleaf dependencies, closes #1">
       <created>1537871047896</created>
@@ -383,14 +387,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537872427109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="converted displayAllBooks.jsp to thymeleaf, closes #4">
+      <created>1537877582651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537877582653</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6400000" />
+    <option name="totallyTimeSpent" value="9439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="590" width="1686" height="421" extended-state="0" />
+    <frame x="-1" y="3" width="1686" height="421" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -399,7 +410,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25276753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25276753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.1612542" />
@@ -473,7 +484,8 @@
     <MESSAGE value="added thymeleaf dependencies, closes #1" />
     <MESSAGE value="configured dispatcher servlet, closes #2" />
     <MESSAGE value="configured project jsp and thymeleaf, closes #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="configured project jsp and thymeleaf, closes #3" />
+    <MESSAGE value="converted displayAllBooks.jsp to thymeleaf, closes #4" />
+    <option name="LAST_COMMIT_MESSAGE" value="converted displayAllBooks.jsp to thymeleaf, closes #4" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -525,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/BookManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -546,17 +551,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/add-new-book.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments/headerAndFooter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="340">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/displayAllBooks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="561">
           <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/BookManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/CreateBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/add-new-book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
         </state>
       </provider>
     </entry>
