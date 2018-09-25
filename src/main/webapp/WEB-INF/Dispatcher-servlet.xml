@@ -31,10 +31,19 @@
            <property name="basename" value="messages"/>
         </bean>
                        
-        <bean class="org.springframework.web.servlet.view.ResourceBundleViewResolver">
-        	<property name="basename" value="views"/>
-        	<property name="order" value="1"/>
-        </bean>
+		<bean id="templateResolver" class="org.thymeleaf.spring3.templateresolver.SpringResourceTemplateResolver">
+			<property name="prefix" value="/WEB-INF/templates/"/>
+			<property name="suffix" value=".html"/>
+			<property name="templateMode" value="HTML5"/>
+		</bean>
+		<bean id="templateEngine" class="org.thymeleaf.spring3.SpringTemplateEngine">
+			<property name="templateResolver" ref="templateResolver"/>
+		</bean>
+		<bean class="org.thymeleaf.spring3.view.ThymeleafViewResolver">
+			<property name="templateEngine" ref="templateEngine"/>
+			<property name="order" value="1"/>
+		</bean>
+
                 
         <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         	<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
