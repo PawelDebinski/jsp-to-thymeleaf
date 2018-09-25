@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.thymeleaf.org" th:fragment="page">
+<head>
+    <title>Enter a new book</title>
+    <link th:href="@{styles.css}" href="styles.css" rel="Stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <div th:replace="/templates/fragments/headerAndFooter :: header">Header goes here</div>
+
+    <div th:replace="this :: content1">content goes here</div>
+    <div th:replace="this :: content2">content goes here</div>
+
+    <div th:replace="/templates/fragments/headerAndFooter :: footer">footer goes here</div>
+</body>
+</html>
