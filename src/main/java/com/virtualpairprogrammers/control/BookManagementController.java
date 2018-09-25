@@ -28,7 +28,7 @@ public class BookManagementController
 	public ModelAndView viewAllBooks()
 	{
 		List<Book> allBooks = bookService.getEntireCatalogue();
-		return new ModelAndView("displayAllBooks","allBooks",allBooks);
+		return new ModelAndView("/templates/displayAllBooks","allBooks",allBooks);
 	}
 	
 	@RequestMapping("/findByAuthor")
