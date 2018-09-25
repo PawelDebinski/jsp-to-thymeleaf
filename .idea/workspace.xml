@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d1d255-ce4e-41b1-b21c-91b8b452d2a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/standardLayout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/displayAllBooks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/displayAllBooks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/virtualpairprogrammers/control/CreateBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/virtualpairprogrammers/control/CreateBookController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +47,7 @@
           <entry key="html" value="1304" />
           <entry key="java" value="34" />
           <entry key="thymes" value="6" />
-          <entry key="txt" value="170" />
+          <entry key="txt" value="183" />
           <entry key="xml" value="322" />
         </counts>
       </usages-collector>
@@ -57,7 +55,7 @@
         <counts>
           <entry key="HTML" value="1304" />
           <entry key="JAVA" value="34" />
-          <entry key="PLAIN_TEXT" value="170" />
+          <entry key="PLAIN_TEXT" value="183" />
           <entry key="ThymeleafExpressions" value="6" />
           <entry key="XML" value="322" />
         </counts>
@@ -75,16 +73,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/standardLayout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="59" selection-start-column="59" selection-end-column="59" />
+            <state relative-caret-position="204">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/displayAllBooks.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -123,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments/headerAndFooter.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/virtualpairprogrammers/control/CreateBookController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/add-new-book.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/standardLayout.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/displayAllBooks.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/standardLayout.html" />
       </list>
     </option>
   </component>
@@ -308,7 +306,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537896113043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537896459800" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -364,7 +362,7 @@
       <option name="presentableId" value="Default" />
       <updated>1537869490715</updated>
       <workItem from="1537869493887" duration="9684000" />
-      <workItem from="1537894210774" duration="1487000" />
+      <workItem from="1537894210774" duration="1729000" />
     </task>
     <task id="LOCAL-00001" summary="added thymeleaf dependencies, closes #1">
       <created>1537871047896</created>
@@ -401,17 +399,23 @@
       <option name="project" value="LOCAL" />
       <updated>1537888639679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added layout, closes #6">
+      <created>1537896221043</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537896221043</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11171000" />
+    <option name="totallyTimeSpent" value="11413000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="589" width="1686" height="421" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25061125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25215253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,7 +425,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2631579" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2631579" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,7 +497,8 @@
     <MESSAGE value="configured project jsp and thymeleaf, closes #3" />
     <MESSAGE value="converted displayAllBooks.jsp to thymeleaf, closes #4" />
     <MESSAGE value="converted add-new-book.jsp to thymeleaf, closes #5" />
-    <option name="LAST_COMMIT_MESSAGE" value="converted add-new-book.jsp to thymeleaf, closes #5" />
+    <MESSAGE value="added layout, closes #6" />
+    <option name="LAST_COMMIT_MESSAGE" value="added layout, closes #6" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -591,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/standardLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="59" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments/headerAndFooter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -609,6 +607,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/standardLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>

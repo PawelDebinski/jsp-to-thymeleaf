@@ -1,6 +1,6 @@
-<html xmlns:th="http://www.thymeleaf.org" th:fragment="page">
+<html xmlns:th="http://www.thymeleaf.org" th:fragment="page(title)">
 <head>
-    <title>Enter a new book</title>
+    <title th:text="${title}">title goes here</title>
     <link th:href="@{styles.css}" href="styles.css" rel="Stylesheet" type="text/css"/>
 </head>
 
