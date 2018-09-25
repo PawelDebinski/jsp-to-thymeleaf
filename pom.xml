@@ -36,10 +36,7 @@
 						<resource>
 							<directory>${basedir}/src/main/resources</directory>
 							<targetPath>WEB-INF</targetPath>
-							<includes>
-								<include>**/application.xml</include>
-								<include>**/*.properties</include>
-							</includes>
+							<filtering>none</filtering>
 						</resource>
 					</webResources>
 
